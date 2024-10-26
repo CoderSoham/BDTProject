@@ -1,0 +1,4 @@
+hdf dfs -put /home/cloudera/DEsktop/new/creditcard.csv /input/data.csv
+hadoop jar /home/cloudera/Project.jar Project /input/data.csv /out
+hdfs dfs -ls /out
+hdfs dfs -cat /out/part-r-00000
